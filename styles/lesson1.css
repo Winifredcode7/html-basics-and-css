@@ -1,0 +1,74 @@
+
+.cart-button{
+    background-color: rgb(255, 235, 138);
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.cart-button:hover{
+    background-color: yellowgreen;
+}
+.cart-button:active{
+    background-color: yellowgreen;
+    opacity: 0.7;
+
+}
+
+.Buy-button{
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius:15px ;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.Buy-button:hover{
+    background-color: orangered;    
+}
+.Buy-button:active{
+     background-color: orangered;
+     opacity: 0.7;
+}
+
+.stock{
+    color: rgb(5, 185, 5);
+    font-weight: bold;
+}
+
+.shoe{
+    font-weight: bold;
+}
+
+a{
+    color: rgb(49, 192, 218);
+}
+a:hover{
+    color: rgb(250, 95, 121);
+    transition: 0.15;
+}
+
+.mode{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.order{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.delivery{
+    text-decoration: underline;
+}
