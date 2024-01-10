@@ -1,0 +1,93 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grid practice</title>
+        <style>
+            .div1 {
+                background-color: lightblue;
+                height: 200px;
+            }
+            .div2{
+                background-color: lightpink;
+                height: 200px;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr; /*to set 3 equal columns that resize with the web page*/
+                margin-top: 30px;
+                padding-bottom: 100px;
+                column-gap: 20px ; /*to set a gab/space btn the column*/
+                row-gap: 40px;
+            }
+            .con{
+                display: grid;
+                grid-template-columns: 200px 75px;
+            }
+            .div0{
+                background-color: lightblue;
+            }
+            .div00{
+                background-color: lightcoral;
+            }
+            .con2{
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            .col1{
+                background-color: lightblue;
+            }
+            .col2{
+                background-color: lightcoral;
+            }
+            .col3{
+                background-color: lightgreen;
+            }
+            .con3{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;
+            }
+            .col01, .col02, .col03 , .col04
+            {
+                background-color: lightcoral;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+        <div class="div1">1fr</div>
+        <div class="div2">1fr</div>
+        <div class="div1">1fr</div>
+        <div class="div2">1fr</div>
+        <div class="div1">1fr</div>
+        <div class="div2">1fr</div>
+        </div>
+        <div class="con">
+            <div class="div0">200px</div>
+            <div class="div00">75px</div>
+        </div>
+        <div class="con2">
+            <div class="col1">col1</div>
+            <div class="col2">col2</div>
+            <div class="col3">col3</div>
+        </div>
+        
+        <div class="con3">
+            <div class="col01">col1</div>
+            <div class="col02">col2</div>
+            <div class="col03">col3</div>
+            <div class="col04">col4</div>
+        </div> <br>
+        <div class="con3">
+            <div class="col01">col1</div>
+            <div class="col02">col2</div>
+            <div class="col03">col3</div>
+            <div class="col04">col4</div>
+        </div>
+    </body>
+</html>

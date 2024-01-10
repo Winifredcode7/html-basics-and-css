@@ -133,18 +133,6 @@
 
 
 <style>
-    .container4{
-        margin-top: 20px;
-        width: 150px;
-        height: 265;
-        background-color: white;
-        border: 1px;
-        border-style: solid;
-        border-color: whitesmoke;
-        display: inline-block;
-        margin-right: 5px;
-        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    }
     .pro1{
         width: 150px;
         height: 150px;
@@ -170,19 +158,16 @@
         font-weight: bold;
         font-family: sans-serif;
         margin-left: 5px;
-
+        margin-bottom: 5px;
+        border-radius: 3px;
     }
-    .container5{
+    .container4 , .container5{
         margin-top: 20px;
         width: 150px;
         background-color: white;
         border: 1px;
         border-style: solid;
         border-color: whitesmoke;
-        display: inline-block;
-        vertical-align: top;
-        height: 265px;
-        margin-right:5px ;
         box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     }
     .pro2{
@@ -206,13 +191,10 @@
     .container6{
         margin-top: 20px;
         width: 150px;
-        height: 265px;
         background-color: white;
         border: 1px;
         border-style: solid;
         border-color: whitesmoke;
-        display: inline-block;
-        vertical-align: top;
         box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     }
     .pro3{
@@ -231,24 +213,38 @@
         font-weight: bold;
         color: rgb(109, 103, 103);
         padding-left: 5px;
-    }    
+    } 
+    .pic-grid{
+        display: grid; 
+        align-items: center; 
+        grid-template-columns: 170px 170px 170px;
+    } 
+    
 </style>
 
-<div class="container4" >
-    <img src="jpegs/profile1.jpg"  class="pro1">
-    <p class="Euro">Euro champions</p>
-    <p class="RT">Russo and Toone</p>
-    <button class="add1">Add Friends</button>
-</div>
-<div class="container5">
-    <img src="jpegs/profile2.jpg" class="pro2">
-    <p class="rap">RAP GOATS</p>
-    <p class="ND">Nicki Minaj and Drake</p>
-    <button class="add2">Add Friends</button>
-</div>
-<div class="container6">
-    <img src="jpegs/profile3.jpg" class="pro3">
-    <p class="utd">ManUtd Women</p>
-    <p class="stars">Russo, Toone and Millie</p>
-    <button class="add3">Add Friends</button>
+<div class="pic-grid">
+    
+    <div class="container4">
+        <img src="jpegs/profile1.jpg"  class="pro1">
+        <p class="Euro">Euro champions</p>
+        <p class="RT">Russo and Toone</p>
+        <button class="add1">Add Friends</button>
+    </div>
+    
+    
+    <div class="container5">
+        <img src="jpegs/profile2.jpg" class="pro2">
+        <p class="rap">RAP GOATS</p>
+        <p class="ND">Nicki Minaj and Drake</p>
+        <button class="add2">Add Friends</button>
+    </div>
+    
+    
+    <div class="container6">
+        <img src="jpegs/profile3.jpg" class="pro3">
+        <p class="utd">ManUtd Women</p>
+        <p class="stars">Russo, Toone and Millie</p>
+        <button class="add3">Add Friends</button>
+    </div>
+    
 </div>

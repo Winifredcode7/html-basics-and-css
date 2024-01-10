@@ -1,0 +1,100 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>flexbox practice</title>
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <!--flex box are used to create horizontal layout and maintaining alignment-->
+        <div style="
+            display: flex;
+            flex-direction: row;">
+            <div style="background-color: lightblue;">div 1 text</div>
+            <div style="background-color: lightcoral ;">div 2 <p>text</p></div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;">
+            <div style="background-color: lightblue;
+            width: 100px;">100px</div>
+            <div style="background-color: lightcoral ;
+            flex: 1;">flex 1</div><!-- this property takes the remaining space in the web page-->
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;">
+
+            <div style="background-color: lightblue;
+            width: 100px;">100px</div>
+            <div style="background-color: lightcoral ;
+            flex: 1;">flex 1</div><!-- this property takes the remaining space in the web page-->
+            <div style="background-color: lightblue;
+            flex: 2;">flex 2</div> <!--take twice the amount of space of flex1-->
+              
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            justify-content:center ;"> <!--it shows how elements are aligned/positioned horizontally-->
+
+
+            <div style="background-color: lightblue;
+            width: 100px;">100px</div>
+            <div style="background-color: lightcoral ;
+            width: 100px;">100px</div>
+            <div style="background-color: lightblue;
+            width: 100px;">100px</div> 
+              
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            justify-content: space-between ;"> <!--it spreads our element evenly across the horizontal space, and makes 
+            sure there is equal amount of space among the element-->
+
+
+            <div style="background-color: lightblue;
+            width: 100px;">100px</div>
+            <div style="background-color: lightcoral ;
+            width: 100px;">100px</div><!-- this property takes the remaining space in the web page-->
+            <div style="background-color: lightblue;
+            width: 100px;">100px</div> <!--take twice the amount of space of flex1-->
+              
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            justify-content: space-between ; 
+            align-items: center; "> <!--use to align items vertically-->
+
+            <div style="background-color: lightblue;
+            width: 100px;">100px</div>
+            <div style="background-color: lightcoral ;
+            width: 100px;">100px</div><!-- this property takes the remaining space in the web page-->
+            <div style="background-color: lightblue;
+            width: 100px;">100px</div> <!--take twice the amount of space of flex1-->
+              
+        </div>
+
+    </body>
+</html>
