@@ -1,0 +1,144 @@
+
+.main-container{
+    background-color: white;
+    border: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.616);
+    width: 500px;
+    border-radius: 5px;
+                
+}
+.container2 , .container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight:bold ;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight:bold ;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+             
+            .fourteen{
+                background-color: rgb(106, 106, 255);
+                border: none;
+                color: white;
+                margin-top: 5px;
+                margin-bottom: 1px;
+                margin-right: 10px;
+                padding: 5px 15px;
+                border-radius: 15px;
+                font-weight: bold;
+            }
+            .three, .five{
+                background-color: rgb(106, 106, 255);
+                border: none;
+                color: white;
+                margin-top: 7px;
+                margin-bottom: 5px;
+                margin-right: 10px;
+                padding: 5px 15px;
+                border-radius: 15px;
+                font-weight: bold;
+            }
+
+            .main-container2{
+                background-color:rgb(168, 111, 221);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 50px;
+                width: 700px;
+                margin-bottom: 50px;
+            }
+             
+            .home{
+                font-family: sans-serif;
+                font-weight: bold;
+                color: white;
+                margin-left: 10px;
+                margin-top: 15px;
+            }
+            .search {
+                margin-top: 12px;
+                margin-bottom: 11px;
+                margin-right: 20px;
+            }
+            .button{
+                margin-top: 12px;
+                margin-bottom: 11px;
+                margin-right: 10px;
+            }
+            .placeholder{
+                width: 400px;
+                padding: 5px;
+                border-radius: 12px;
+                border: none;
+                font-family: sans-serif;
+            }
+            .Download{
+                background-color: rgb(168, 111, 221);
+                color: white;
+                border-style: solid;
+                border-width: 1px;
+                border-color: white;
+                padding: 5px;
+                font-family: sans-serif;
+                
+            }
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.main-container3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}             
+.jpeg1{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.profile-info{
+    width: 200px;
+}
+.player{
+    font-weight: bold;
+    margin-bottom: 3px;
+    
+}
+.footy{
+    color: rgb(150, 150, 150);
+    margin-bottom: 5px;
+    
+}
+.pop{
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+    
+}
+.follow-button{
+    background-color: rgb(29, 155, 240);
+    border: none;
+    color: white;
+    font-size:16px ;
+    font-weight: bold;
+    padding: 8px 15px ;
+    border-radius: 4px;
+    cursor: pointer;
+  
+}
